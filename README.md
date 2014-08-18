@@ -20,7 +20,7 @@ for A in `ls *.vmdk`; do ~/vmdk $A; done
 This should create output like:
 
 ```bash
-richard$ for A in `ls *.vmdk`; do ~/vmdk $A; done
+richard$ find . -iname "*vmdk" -exec ~/vmdk "{}" \;
 RW 4192256 SPARSE "winxp-s001.vmdk"
 RW 4192256 SPARSE "winxp-s002.vmdk"
 RW 4192256 SPARSE "winxp-s003.vmdk"
