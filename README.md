@@ -107,3 +107,6 @@ ddb.toolsVersion = "9410"
 ddb.uuid = "60 00 C2 91 50 a7 e8 52-8c 26 00 94 23 33 12 f3"
 ddb.virtualHWVersion = "4"
 ```
+Credits
+-------
+The inspiration for this, apart from a broken VM with my alarm system programming software, was the [libvmdk](https://code.google.com/p/libvmdk/) project and the [VMWare documentation](https://www.vmware.com/support/developer/vddk/vmdk_50_technote.pdf?src=vmdk)
