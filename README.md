@@ -53,3 +53,9 @@ The disk geometry can be found in one of the vmware.log files, try the following
 richard$ grep 'Geo (' *.log 
 vmware.log:2014-08-18T20:05:58.197+10:00| Worker#0| I120: DISK: OPEN '/Users/richard/Documents/Virtual Machines.localized/Microsoft Windows XP.vmwarevm/winxp.vmdk' Geo (83220/16/63) BIOS Geo (5221/255/63)
 ```
+with this information you can create the following lines in your vmdk file:
+```bash
+ddb.geometry.cylinders = "83220"
+ddb.geometry.heads = "16"
+ddb.geometry.sectors = "63"
+```
