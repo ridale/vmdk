@@ -46,7 +46,7 @@ RW 4192256 SPARSE "winxp-s022.vmdk"
 RW 20480 SPARSE "winxp-s023.vmdk"
 # winxp.vmdk file does not have the correct magic number 69442023
 ```
-There is one other peice of information that is required to finish off the vmdk file, that is the disk geometry for the virtual hard disk.
+There is one other piece of information that is required to finish off the vmdk file, that is the disk geometry for the virtual hard disk.
 
 The disk geometry can be found in one of the vmware.log files, try the following command to find it:
 ```bash
