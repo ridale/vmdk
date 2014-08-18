@@ -1,7 +1,7 @@
 vmdk
 ====
 
-recreate a vmdk descriptor file from sparse files and the vmware.log
+Recreate parts of a vmdk descriptor file from sparse files and the vmware.log
 
 This program helps get the information needed to recreate a lost vmdk descriptor file for vmware fusion on a mac.
 
