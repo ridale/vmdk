@@ -14,7 +14,7 @@ gcc vmdk.c -o vmdk
 To run the program against each of the vmdk files in the virtual machine directory I use the following command line:
 
 ```bash
-for A in `ls *.vmdk`; do ~/vmdk $A; done
+find . -iname "*vmdk" -exec ~/vmdk "{}" \;
 ```
 
 This should create output like:
