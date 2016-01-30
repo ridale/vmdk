@@ -109,4 +109,4 @@ ddb.virtualHWVersion = "4"
 ```
 Credits
 -------
-The inspiration for this, apart from a broken VM with my alarm system programming software, was the [libvmdk](https://code.google.com/p/libvmdk/) project and the [VMWare documentation](https://www.vmware.com/support/developer/vddk/vmdk_50_technote.pdf?src=vmdk)
+The inspiration for this, apart from a broken VM with my alarm system programming software, was the [libvmdk](https://github.com/libyal/libvmdk/) project and the [VMWare documentation](https://www.vmware.com/support/developer/vddk/vmdk_50_technote.pdf?src=vmdk)
